@@ -44,6 +44,7 @@ public class RobotController extends JFrame {
 				try {
 					RobotController frame = new RobotController();
 					frame.setVisible(true);
+					frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
